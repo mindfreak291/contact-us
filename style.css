@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+.first-row {
+    padding: 2% 20% 0 20%;
+}
+
+.second-row,
+.forth-row {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 13px;
+    color: gray;
+    padding-left: 5px;
+}
+
+span {
+    color: tomato;
+}
+
+.name,
+.email {
+    border: none;
+    padding-left: 5px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding: 5% 20% 0 20%;
+}
+
+.contact {
+    font-size: 30px;
+    color: black;
+    font-style: inherit;
+}
+
+.submit,
+.submit:link,
+.submit:active {
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 5px 25px 5px 25px;
+    border: none;
+}
+
+.submit:hover,
+.submit:active,
+.submit:focus {
+    background-color: darkred;
+    border-radius: 20px;
+    padding: 5px 25px 5px 25px;
+    border: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .first-row {
+        padding: 10% 10% 0 10%;
+    }
+    .second-row,
+    .forth-row {
+        margin-top: 20px;
+    }
+}
